@@ -1,0 +1,28 @@
+{
+  "name": "basic-utils-library",
+  "version": "1.0.0",
+  "description": "basic-utils-library",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && rollup --config --bundleConfigAsCjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "toolkit",
+    "rollup",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.1",
+    "@babel/preset-env": "^7.24.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.13.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.2"
+  }
+}
